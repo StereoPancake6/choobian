@@ -13,7 +13,7 @@ return function(Type, PatchName)
     end
 
     -- // Vars
-    local PatchFormat = "https://raw.githubusercontent.com/Stefanuk12/Aiming/main/GamePatches/%s/%s.lua"
+    local PatchFormat = "https://raw.githubusercontent.com/StereoPancake6/choobian/main/2788229376.lua"
 
     -- // Attempt to load a patch for the game
     local Success, _ = pcall(function()
