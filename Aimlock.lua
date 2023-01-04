@@ -13,7 +13,7 @@ local RunService = game:GetService("RunService")
 -- // Vars
 Aiming.AimLock = {
     Enabled = true,
-    FocusMode = false, -- // Stays locked on to that player only. If true then uses the aim lock keybind, if a input type is entered, then that is used
+    FocusMode = true, -- // Stays locked on to that player only. If true then uses the aim lock keybind, if a input type is entered, then that is used
     CurrentlyFocused = nil,
     ToggleBind = false, -- // true = Toggle, false = Hold (to enable)
     Keybind = Enum.KeyCode.E, -- // You can also have Enum.KeyCode.E, etc.
