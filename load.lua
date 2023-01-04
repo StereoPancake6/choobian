@@ -11,7 +11,7 @@ return function(Type, PatchName)
         local errorFormat = "invalid type for %s (expected %s, got %s)"
         assert(typeofPatchName == "string", errorFormat:format("PatchName", "string", typeofPatchName))
     end
-
+    
     -- // Vars
     local PatchFormat = "https://raw.githubusercontent.com/Stefanuk12/Aiming/main/GamePatches/%s/%s.lua"
 
