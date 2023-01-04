@@ -23,7 +23,7 @@ return function(Type, PatchName)
 
     -- // Load default otherwise
     if (not Success) then
-        local ModuleFormat = "https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Module.lua"
+        local ModuleFormat = "https://raw.githubusercontent.com/StereoPancake6/Aiming/main/%s.lua"
         loadstring(game:HttpGet(ModuleFormat:format(Type)))()
     end
 
