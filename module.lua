@@ -1,8 +1,8 @@
 if getgenv().Aiming then return getgenv().Aiming end
 
 -- // Dependencies
-local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Signal/main/Manager.lua"))()
-local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/BeizerManager.lua"))()
+local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/StereoPancake6/choobian/main/Manager.lua"))()
+local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/StereoPancake6/choobian/main/beizermanager.lua"))()
 
 -- // Services
 local HttpService = game:GetService("HttpService")
