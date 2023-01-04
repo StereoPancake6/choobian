@@ -11,9 +11,9 @@ return function(Type, PatchName)
         local errorFormat = "invalid type for %s (expected %s, got %s)"
         assert(typeofPatchName == "string", errorFormat:format("PatchName", "string", typeofPatchName))
     end
-    
+
     -- // Vars
-    local PatchFormat = "https://raw.githubusercontent.com/StereoPancake6/Aiming/main/GamePatches/Module/2788229376.lua"
+    local PatchFormat = "https://raw.githubusercontent.com/StereoPancake6/Aiming/main/GamePatches/%s/%s.lua"
 
     -- // Attempt to load a patch for the game
     local Success, _ = pcall(function()
@@ -23,7 +23,7 @@ return function(Type, PatchName)
 
     -- // Load default otherwise
     if (not Success) then
-        local ModuleFormat = "https://raw.githubusercontent.com/StereoPancake6/choobian/main/module.lua"
+        local ModuleFormat = "https://raw.githubusercontent.com/StereoPancake6/Aiming/main/%s.lua"
         loadstring(game:HttpGet(ModuleFormat:format(Type)))()
     end
 
