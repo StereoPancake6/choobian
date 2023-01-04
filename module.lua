@@ -63,7 +63,7 @@ local AimingSettings = {
         Enabled = true,
         Visible = true,
         Type = "Static",
-        Scale = 60,
+        Scale = 1,
         Sides = 12,
         Colour = Color3fromRGB(231, 84, 128),
         DynamicFOVConstant = 25
@@ -73,7 +73,7 @@ local AimingSettings = {
         Circle = Drawingnew("Circle"),
         Enabled = true,
         Visible = true,
-        Scale = 10,
+        Scale = 1,
         Sides = 30,
         Colour = Color3fromRGB(83, 31, 46),
     },
