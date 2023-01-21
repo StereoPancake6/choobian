@@ -39,8 +39,8 @@ getgenv().Aiming = {
 
     ShowFOV = false,
     FOV = 20,
-    FOVSides = 300,
-    FOVColour = Color3fromRGB(255, 0, 0),
+    FOVSides = 15,
+    FOVColour = Color3fromRGB(123, 226, 252),
 
     VisibleCheck = true,
     
@@ -60,7 +60,7 @@ getgenv().Aiming = {
         },
         Players = {
             LocalPlayer,
-            3254489874
+            98454320
         }
     }
 }
